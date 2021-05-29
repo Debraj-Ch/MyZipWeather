@@ -12,7 +12,7 @@ namespace MyZipWeather.Models
 
         [DisplayName("City")]
         public string CityName { get; set; }
-        [DisplayName("Max Temperature")]
+        [DisplayName("Max Temperature(Celcius)")]
         public string HighestTemp { get; set; }
     }
 }

@@ -41,7 +41,7 @@ namespace MyZipWeather.Controllers
         public IActionResult GetWeather(City inputCity)
         {
             //Assign API KEY which received from OPENWEATHERMAP.ORG  
-            string appId = "23ab8919299bbf22083b63e6eb8c8859";
+            string appId = "";
 
             //API path with CITY parameter and other parameters.  
             string url = string.Format
