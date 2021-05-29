@@ -5,7 +5,7 @@
 @using (Html.BeginForm("GetWeather", "Home", FormMethod.Post))
 {
     <div class="text-center">
-        <h4 >Enter City Name</h4>
+        <h4 >Enter your City Zip or Name</h4>
         <br />
         @Html.TextBoxFor(model => model.CityName)
         <input type="submit" value="Submit" />
